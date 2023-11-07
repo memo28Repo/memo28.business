@@ -1,11 +1,15 @@
 <!--
  * @Author: 邱狮杰
  * @Date: 2023-03-09 11:53:37
- * @LastEditTime: 2023-10-31 09:52:25
+ * @LastEditTime: 2023-11-07 11:54:15
  * @Description: 
  * @FilePath: /baseRepo/README.md
 -->
 # baseRepo
+
+![example branch parameter](https://github.com/github/docs/actions/workflows/main.yml/badge.svg?branch=feature-1)
+
+<!-- https://docs.github.com/zh/actions/monitoring-and-troubleshooting-workflows/adding-a-workflow-status-badge -->
 
 # link 流程
 
