@@ -1,7 +1,7 @@
 <!--
  * @Author: 邱狮杰
  * @Date: 2023-03-09 11:53:37
- * @LastEditTime: 2023-11-07 11:54:15
+ * @LastEditTime: 2023-11-29 14:20:14
  * @Description: 
  * @FilePath: /baseRepo/README.md
 -->
@@ -32,6 +32,8 @@
 # [分支管理](/docs/branchManagement.md)
 
 # [包管理规范](/docs/packagingSpecification.md)
+
+# [不要让经验成为你学习新知识的阻碍](/docs/experience.md)
 
 # [注释生成文档](https://api-extractor.com/pages/overview/intro/)
 
