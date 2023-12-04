@@ -1,7 +1,7 @@
 /*
  * @Author: 邱狮杰
  * @Date: 2023-03-09 13:45:53
- * @LastEditTime: 2023-03-09 13:45:57
+ * @LastEditTime: 2023-12-04 14:11:57
  * @Description: 
  * @FilePath: /baseRepo/.cz-config.js
  */
@@ -14,27 +14,27 @@
  */
 module.exports = {
     types: [
-        { value: 'feat', name: 'feat:一个新功能' },
-        { value: 'fix', name: 'fix:修复一个bug' },
-        { value: 'docs', name: 'docs:仅文档更改' },
+        { value: '(:sparkles:)feat', name: 'feat:一个新功能' },
+        { value: '(:bug:)fix', name: 'fix:修复一个bug' },
+        { value: '(:memo:)docs', name: 'docs:仅文档更改' },
         {
-            value: 'style',
+            value: '(:lipstick:)style',
             name: 'style:不影响代码含义的更改\n（空格、格式、缺少分号等）',
         },
         {
-            value: 'refactor',
+            value: '(:recycle:)refactor',
             name: 'refactor: 既不修复错误也不添加功能的代码更改',
         },
         {
-            value: 'perf',
+            value: '(:zap:)perf',
             name: 'perf:提高性能的代码更改',
         },
-        { value: 'test', name: 'test:添加缺失的测试' },
+        { value: '(:test_tube:)test', name: 'test:添加缺失的测试' },
         {
-            value: 'chore',
+            value: '(:building_construction:)chore',
             name: 'chore:对构建过程或辅助工具的更改\n 以及文档生成等库',
         },
-        { value: 'revert', name: 'revert:恢复到提交' },
+        { value: '(:rewind:)revert', name: 'revert:恢复到提交' },
     ],
 
     // scopes: [{ name: '帐户' }, { name: '行政' }, { name: '示例范围' }, { name: 'changeMe' }],
@@ -74,7 +74,7 @@ module.exports = {
     skipQuestions: ['body'],
 
     // limit subject length
-    subjectLimit: 100,
+    subjectLimit: 200,
     // breaklineChar: '|', // It is supported for fields body and footer.
     // footerPrefix : 'ISSUES CLOSED:'
     // askForBreakingChangeFirst : true, // default is false
