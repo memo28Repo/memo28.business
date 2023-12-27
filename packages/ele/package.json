@@ -1,6 +1,6 @@
 {
   "name": "@memo28.business/ele",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "./lib/index.js",
   "module": "./dist/index.js",
@@ -23,5 +23,15 @@
   "license": "ISC",
   "dependencies": {
     "dayjs": "^1.11.10"
-  }
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  },
+  "files": [
+    "./src",
+    "./dts",
+    "./dist",
+    "./lib"
+  ]
 }
