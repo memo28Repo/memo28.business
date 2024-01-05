@@ -4,16 +4,16 @@ export const ANIMATE_TYPE = {
 
 export const ANIMATE_NAME = {
     // 滑动效果
-    SLIDE_LEFT: 'slide-left',
-    SLIDE_Right: 'slide-right',
-    SLIDE_TOP: 'slide-top',
-    SLIDE_BOTTOM: 'slide-bottom',
+    Slide_Left: 'slide-left',
+    Slide_Right: 'slide-right',
+    Slide_Top: 'slide-top',
+    Slide_Bottom: 'slide-bottom',
 
 
     // 滑动模糊效果
-    SLIDE_LEFT_BLURRED: 'slide-left-blurred',
-    SLIDE_Right_BLURRED: 'slide-right-blurred',
-    SLIDE_TOP_BLURRED: 'slide-top-blurred',
-    SLIDE_BOTTOM_BLURRED: 'slide-bottom-blurred'
+    Slide_Left_Blurred: 'slide-left-blurred',
+    Slide_Right_Blurred: 'slide-right-blurred',
+    Slide_Top_Blurred: 'slide-top-blurred',
+    Slide_Bottom_Blurred: 'slide-bottom-blurred'
 }
 

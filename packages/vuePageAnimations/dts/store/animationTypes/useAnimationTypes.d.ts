@@ -7,7 +7,7 @@ export declare const useAnimationTypes: import("pinia").StoreDefinition<"animati
         setName: (n: string) => void;
         name: import("vue").Ref<string>;
     };
-}, "type" | "name">>, Pick<{
+}, "name" | "type">>, Pick<{
     type: {
         setType: (t: "slide") => void;
         type: import("vue").Ref<string>;

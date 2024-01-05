@@ -2,12 +2,12 @@ export declare const ANIMATE_TYPE: {
     readonly SLIDE: "slide";
 };
 export declare const ANIMATE_NAME: {
-    SLIDE_LEFT: string;
-    SLIDE_Right: string;
-    SLIDE_TOP: string;
-    SLIDE_BOTTOM: string;
-    SLIDE_LEFT_BLURRED: string;
-    SLIDE_Right_BLURRED: string;
-    SLIDE_TOP_BLURRED: string;
-    SLIDE_BOTTOM_BLURRED: string;
+    Slide_Left: string;
+    Slide_Right: string;
+    Slide_Top: string;
+    Slide_Bottom: string;
+    Slide_Left_Blurred: string;
+    Slide_Right_Blurred: string;
+    Slide_Top_Blurred: string;
+    Slide_Bottom_Blurred: string;
 };
