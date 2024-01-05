@@ -1,0 +1,42 @@
+{
+  "name": "@memo28.business/vue-page-animations",
+  "version": "0.0.1",
+  "description": "",
+  "main": "./lib/index.js",
+  "module": "./dist/index.js",
+  "types": "./dts/index.d.ts",
+  "scripts": {
+    "test": "vitest run",
+    "build:cjs": "rm -rf ./lib && tsc --module commonjs --rootDir ./src --outDir ./lib --experimentalDecorators true",
+    "build:es": "rm -rf ./dist && tsc --module es6 --rootDir ./src --outDir ./dist --experimentalDecorators true",
+    "build:cjs:watch": "tsc --module commonjs --rootDir ./src --outDir ./lib --experimentalDecorators true --watch",
+    "build:es:watch": "tsc --module es6 --rootDir ./src --outDir ./dist --experimentalDecorators true --watch",
+    "build": "rm -rf ./dts && pnpm build:cjs && pnpm build:es",
+    "build:watch": "  pnpm build:es:watch && pnpm build:cjs:watch",
+    "build:md": "pnpm build && api-extractor run --local --verbose && sh mv.sh",
+    "test:watch": "vitest",
+    "test:ui": "vitest --ui",
+    "links": "pnpm link --global"
+  },
+  "keywords": [],
+  "author": "memo.repo",
+  "license": "ISC",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  },
+  "files": [
+    "./src",
+    "./dts",
+    "./dist",
+    "./lib"
+  ],
+  "devDependencies": {
+    "pinia": "^2.1.7",
+    "vue": "^3.4.5",
+    "vue-router": "^4.2.5"
+  },
+  "dependencies": {
+    "@memo28/utils": "^1.2.4"
+  }
+}
