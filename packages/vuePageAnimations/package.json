@@ -7,7 +7,7 @@
   "types": "./dts/index.d.ts",
   "scripts": {
     "test": "vitest run",
-    "build:cjs": "rm -rf ./lib && tsc --module commonjs --rootDir ./src --outDir ./lib --experimentalDecorators true",
+    "build:cjs": "rm -rf ./lib && tsc --module NodeNext --rootDir ./src --outDir ./lib --experimentalDecorators true",
     "build:es": "rm -rf ./dist && tsc --module es6 --rootDir ./src --outDir ./dist --experimentalDecorators true",
     "build:cjs:watch": "tsc --module commonjs --rootDir ./src --outDir ./lib --experimentalDecorators true --watch",
     "build:es:watch": "tsc --module es6 --rootDir ./src --outDir ./dist --experimentalDecorators true --watch",
