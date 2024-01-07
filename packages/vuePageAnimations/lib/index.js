@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.ANIMATE_TYPE = exports.ANIMATE_NAME = exports.globalBeforeEach = exports.useAnimationTypes = void 0;
+exports.ANIMATE_NAME_Slide = exports.ANIMATE_NAME_Fade = exports.ANIMATE_TYPE = exports.ANIMATE_NAME = exports.globalBeforeEach = exports.useAnimationTypes = void 0;
 var useAnimationTypes_1 = require("./store/animationTypes/useAnimationTypes");
 Object.defineProperty(exports, "useAnimationTypes", { enumerable: true, get: function () { return useAnimationTypes_1.useAnimationTypes; } });
 var global_beforeEach_1 = require("./router/global.beforeEach");
@@ -8,3 +8,5 @@ Object.defineProperty(exports, "globalBeforeEach", { enumerable: true, get: func
 var types_1 = require("./constant/types");
 Object.defineProperty(exports, "ANIMATE_NAME", { enumerable: true, get: function () { return types_1.ANIMATE_NAME; } });
 Object.defineProperty(exports, "ANIMATE_TYPE", { enumerable: true, get: function () { return types_1.ANIMATE_TYPE; } });
+Object.defineProperty(exports, "ANIMATE_NAME_Fade", { enumerable: true, get: function () { return types_1.ANIMATE_NAME_Fade; } });
+Object.defineProperty(exports, "ANIMATE_NAME_Slide", { enumerable: true, get: function () { return types_1.ANIMATE_NAME_Slide; } });

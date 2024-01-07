@@ -1,0 +1,47 @@
+// fade-in
+.fade-in-enter-from {
+  transition: all 0.5s;
+  opacity: 0;
+}
+
+.fade-in-enter-to {
+  transition: all 0.5s;
+  opacity: 1;
+}
+
+.fade-in-leave-from {
+  transition: all 0.5s;
+  opacity: 1;
+}
+
+.fade-in-leave-to {
+  transition: all 0.5s;
+  opacity: 0;
+}
+
+
+// fade-right
+.fadeIn-right-enter-from {
+  transition: all 0.5s;
+  transform: translateX(100vw);
+  opacity: 0;
+}
+
+.fadeIn-right-enter-to {
+  transition: all 0.5s;
+  transform: translateX(0px);
+  opacity: 0;
+}
+
+.fadeIn-right-leave-from {
+  transition: all 0.5s;
+  transform: translateX(0px);
+  opacity: 0;
+}
+
+.fadeIn-right-leave-to {
+  transition: all 0.5s;
+  transform: translateX(100vw);
+  opacity: 0;
+}
+

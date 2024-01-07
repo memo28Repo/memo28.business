@@ -5,6 +5,8 @@ import {SNI} from '@memo28/utils'
 import {ANIMATE_TYPE} from "../constant/types";
 import {Meta} from "../types/meta";
 import {SliceMeta} from "../features/slide/sliceMeta";
+import {useFadeGlobalBeforeEach} from "../features/fade/hooks/useFade.globalBeforeEach";
+import {FadeMeta} from "../features/fade/fadeMeta";
 
 export function globalBeforeEach(router: Router) {
     router.beforeEach((to) => {
@@ -15,6 +17,11 @@ export function globalBeforeEach(router: Router) {
         if (SNI(animationTypes.type.type, ANIMATE_TYPE.SLIDE)) {
             const slideGlobalBeforeEach = useSlideGlobalBeforeEach(animationTypes);
             slideGlobalBeforeEach.order(toMeta as SliceMeta)
+        }
+
+        if (SNI(animationTypes.type.type, ANIMATE_TYPE.FADE)) {
+            const fadeGlobalBeforeEach = useFadeGlobalBeforeEach(animationTypes);
+            fadeGlobalBeforeEach.order(toMeta as FadeMeta)
         }
     })
 }
